@@ -57,11 +57,11 @@ if (empty($_SESSION['user_id']) && empty($_SESSION['logged_in'])) {
     }
 ?>
 <?php include('header.php') ?>
-<<<<<<< HEAD
+
 		<div class="container">
-=======
+
 	<div class="container">
->>>>>>> ee268d24162048c48bf24c081ba9f6c65ca7fc81
+
 		<div class="row">
 			<div class="col-xl-3 col-lg-4 col-md-5">
 				<div class="sidebar-categories">
@@ -143,4 +143,5 @@ if (empty($_SESSION['user_id']) && empty($_SESSION['logged_in'])) {
 					</div>
 				</section>
 				<!-- End Best Seller -->
+</div>
 <?php include('footer.php');?>

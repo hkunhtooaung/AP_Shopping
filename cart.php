@@ -36,6 +36,10 @@ session_start();
 require 'config/config.php';
 require 'config/common.php';
 include('header.php');
+
+if (empty($_SESSION['user_id']) && empty($_SESSION['logged_in'])) {
+    echo header("Location: login.php");
+}
 ?>
   
 

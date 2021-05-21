@@ -28,6 +28,7 @@ if ($_POST) {
     }elseif (is_numeric($_POST['quantity']) != 1) {
       $qtyError = 'Quantity should be integer value';
     }
+    
     if (empty($_POST['price'])) {
       $priceError = 'Price is required';
     }elseif (is_numeric($_POST['price']) != 1) {
